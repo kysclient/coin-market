@@ -8,7 +8,7 @@ Coin Market은 다음과 같은 기능을 제공합니다:
 
 - 코인 가격 조회
 - 코인 상세 데이터 조회
-- 코인 <-> 원화 가격계산 (KRW, USD만 지원하며 환율은 $1 - 1,300원으로 책정되었습니다.)
+- 코인 <-> 원화 가격계산 (KRW, USD만 지원하며 USD데이터 기준으로 환율은 $1 - 1,300원으로 변환되었습니다.)
 - 북마크
 
 ## 사용 라이브러리
@@ -35,13 +35,9 @@ coin-market
 │  │  ├─ SpoqaHanSansNeo-Medium.ttf
 │  │  ├─ SpoqaHanSansNeo-Regular.ttf
 │  │  └─ SpoqaHanSansNeo-Thin.ttf
-│  ├─ korbit_logo.jpg
-│  └─ vite.svg
 ├─ routes.tsx
 ├─ src
 │  ├─ App.tsx
-│  ├─ assets
-│  │  └─ react.svg
 │  ├─ components
 │  │  ├─ btc-price-calculator.tsx
 │  │  ├─ footer.tsx
