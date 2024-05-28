@@ -21,30 +21,30 @@ Coin Market은 다음과 같은 기능을 제공합니다:
 
 ## 폴더 구조
 
-coin-market/
-├── public/
-│ └── fonts/
-├── src/
-│ ├── components/
-│ │ ├── btc-price-calculator.tsx
-│ │ ├── footer.tsx
-│ │ ├── market-table.tsx
-│ │ └── header.tsx
-│ ├── layouts/
-│ │ └── main-layout.tsx
-│ ├── pages/
-│ │ ├── error-page.tsx
-│ │ ├── bookmark-page.tsx
-│ │ ├── market-page.tsx
-│ │ └── market-detail-page.tsx
-│ ├── services/
-│ │ ├── api.tsx
-│ │ └── axios.tsx
-│ ├── App.tsx
-│ ├── main.tsx
-│ └── index.html
-├── package.json
-├── tsconfig.json
+coin-market/ <br>
+├── public/<br>
+│ └── fonts/<br>
+├── src/<br>
+│ ├── components/<br>
+│ │ ├── btc-price-calculator.tsx<br>
+│ │ ├── footer.tsx<br>
+│ │ ├── market-table.tsx<br>
+│ │ └── header.tsx<br>
+│ ├── layouts/<br>
+│ │ └── main-layout.tsx<br>
+│ ├── pages/<br>
+│ │ ├── error-page.tsx<br>
+│ │ ├── bookmark-page.tsx<br>
+│ │ ├── market-page.tsx<br>
+│ │ └── market-detail-page.tsx<br>
+│ ├── services/<br>
+│ │ ├── api.tsx<br>
+│ │ └── axios.tsx<br>
+│ ├── App.tsx<br>
+│ ├── main.tsx<br>
+│ └── index.html<br>
+├── package.json<br>
+├── tsconfig.json<br>
 └── README.md
 
 ## 실행 방법
@@ -65,7 +65,7 @@ coin-market/
 3. **애플리케이션 실행**
 
    ```bash
-  yarn start
+   yarn start
    ```
 
 4. **웹 브라우저에서 확인**
