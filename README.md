@@ -21,8 +21,9 @@ Coin Market은 다음과 같은 기능을 제공합니다:
 
 ## 폴더 구조
 
+coin-market/
 ├── public/
-│ └── fonts
+│ └── fonts/
 ├── src/
 │ ├── components/
 │ │ ├── btc-price-calculator.tsx
@@ -65,15 +66,10 @@ Coin Market은 다음과 같은 기능을 제공합니다:
 
    ```bash
   yarn start
-   or
-  yarn dev
-  or
-  yarn vite
-
    ```
 
 4. **웹 브라우저에서 확인**
-   ```text
+   ```bash
    http://localhost:5173
    ```
 
