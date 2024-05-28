@@ -21,31 +21,57 @@ Coin Market은 다음과 같은 기능을 제공합니다:
 
 ## 폴더 구조
 
-coin-market/ <br>
-├── public/<br>
-│ └── fonts/<br>
-├── src/<br>
-│ ├── components/<br>
-│ │ ├── btc-price-calculator.tsx<br>
-│ │ ├── footer.tsx<br>
-│ │ ├── market-table.tsx<br>
-│ │ └── header.tsx<br>
-│ ├── layouts/<br>
-│ │ └── main-layout.tsx<br>
-│ ├── pages/<br>
-│ │ ├── error-page.tsx<br>
-│ │ ├── bookmark-page.tsx<br>
-│ │ ├── market-page.tsx<br>
-│ │ └── market-detail-page.tsx<br>
-│ ├── services/<br>
-│ │ ├── api.tsx<br>
-│ │ └── axios.tsx<br>
-│ ├── App.tsx<br>
-│ ├── main.tsx<br>
-│ └── index.html<br>
-├── package.json<br>
-├── tsconfig.json<br>
-└── README.md
+```
+coin-market
+├─ .env
+├─ README.md
+├─ index.html
+├─ package.json
+├─ postcss.config.js
+├─ public
+│  ├─ fonts
+│  │  ├─ SpoqaHanSansNeo-Bold.ttf
+│  │  ├─ SpoqaHanSansNeo-Light.ttf
+│  │  ├─ SpoqaHanSansNeo-Medium.ttf
+│  │  ├─ SpoqaHanSansNeo-Regular.ttf
+│  │  └─ SpoqaHanSansNeo-Thin.ttf
+│  ├─ korbit_logo.jpg
+│  └─ vite.svg
+├─ routes.tsx
+├─ src
+│  ├─ App.tsx
+│  ├─ assets
+│  │  └─ react.svg
+│  ├─ components
+│  │  ├─ btc-price-calculator.tsx
+│  │  ├─ footer.tsx
+│  │  ├─ header.tsx
+│  │  └─ market-table.tsx
+│  ├─ layouts
+│  │  └─ main-layout.tsx
+│  ├─ main.tsx
+│  ├─ pages
+│  │  ├─ bookmark-page.tsx
+│  │  ├─ error-page.tsx
+│  │  ├─ market-detail-page.tsx
+│  │  └─ market-page.tsx
+│  ├─ services
+│  │  ├─ apis.ts
+│  │  └─ axios.ts
+│  ├─ styles
+│  │  ├─ font.scss
+│  │  └─ global.scss
+│  ├─ utills.ts
+│  └─ vite-env.d.ts
+├─ tailwind.config.js
+├─ tsconfig.json
+├─ tsconfig.node.json
+├─ types
+│  └─ coin.ts
+├─ vite.config.ts
+└─ yarn.lock
+
+```
 
 ## 실행 방법
 
